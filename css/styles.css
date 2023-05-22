@@ -346,6 +346,7 @@ gap: 40px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    margin-bottom: 8px;
 }
 /*ul*/
 .social-list {
@@ -411,7 +412,7 @@ gap: 40px;
 }
 
 /*a*/
-.costumers-logo-link {
+.customers-logo-link {
     width: 100%;
     height: 100%;
     display: flex;
@@ -422,8 +423,8 @@ gap: 40px;
     color: var(--icon-logo);
 }
 
-.costumers-logo-link:hover,
-.costumers-logo-link:focus {
+.customers-logo-link:hover,
+.customers-logo-link:focus {
     border-color: #404BBF;
     color: #404BBF;
 }
@@ -433,9 +434,9 @@ gap: 40px;
     fill: currentColor;
 }
 
-.customers-logo-icon:hover,
-.customers-logo-icon:focus {
-    color: #404BBF;
+.customers-logo-link:hover .customers-logo-icon,
+.customers-logo-link:focus .customers-logo-icon {
+    fill: #404BBF;
 }
 
 
